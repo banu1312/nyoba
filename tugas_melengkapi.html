@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <pre>
+        <form id="form1" name="form1" method="post/get" action="view.php" >
+           <p>
+                <strong>
+                    <label for="textfield3">Nama    : <input type="text" name="nama" id="textfield3"></label>
+
+                </strong>
+                
+                <strong>
+                    Jenis Kelamin   : 
+                </strong>
+                <input type="radio" name="jk" id="radio" value="radio"> <label for="jk">Pria</label>
+                <input type="radio" name="jk" id="radio2" value="radio2"> <label for="jk">wanita</label>
+                <strong>
+                    Hobi    :
+                </strong>
+                <input type="checkbox" name="hobi" id="hobi"><label for="hobi">membaca</label>
+                <input type="checkbox" name="hobi" id="hobi"><label for="hobi">Olahraga</label>
+                <input type="checkbox" name="hobi" id="hobi"><label for="hobi">Musik</label>
+                <strong>
+                    Agama   : 
+                </strong>
+                <select name="agama" id="agama">
+                    <option value="Islam">Islam</option>
+                    <option value="Kristen">Kristen</option>
+                    <option value="Katholik">Katholik</option>
+                    <option value="Hindu">Hindu</option>
+                    <option value="Budha">Budha</option>
+                    <option value="Konghucu">Konghucu</option>
+                </select>   
+                <p>
+                    <strong>
+                     Komentar    :
+                    </strong>
+                    <label for="komentar"></label>
+                    <textarea name="komentar" id="komentar" cols="45" rows="5"></textarea>
+                    <input type="button" name="button" id="button" value="Kirim">
+                    <input type="button" name="button2" id="button2" value="Batal">
+                    
+                </p>     
+            
+        </form>
+    </pre>
+</body>
+</html>
